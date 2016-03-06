@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A229BAA1C8C75EF003A2F16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A229BA91C8C75EF003A2F16 /* main.m */; };
+		6A229BAD1C8C75EF003A2F16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A229BAC1C8C75EF003A2F16 /* AppDelegate.m */; };
+		6A229BB01C8C75EF003A2F16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A229BAF1C8C75EF003A2F16 /* ViewController.m */; };
+		6A229BB31C8C75EF003A2F16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A229BB11C8C75EF003A2F16 /* Main.storyboard */; };
+		6A229BB51C8C75EF003A2F16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A229BB41C8C75EF003A2F16 /* Assets.xcassets */; };
+		6A229BB81C8C75EF003A2F16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A229BB61C8C75EF003A2F16 /* LaunchScreen.storyboard */; };
+		6A229BC31C8C75EF003A2F16 /* JTaiCustomViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A229BC21C8C75EF003A2F16 /* JTaiCustomViewTests.m */; };
+		6A229BCE1C8C75EF003A2F16 /* JTaiCustomViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A229BCD1C8C75EF003A2F16 /* JTaiCustomViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A229BBF1C8C75EF003A2F16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A229B9D1C8C75EF003A2F16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A229BA41C8C75EF003A2F16;
+			remoteInfo = JTaiCustomView;
+		};
+		6A229BCA1C8C75EF003A2F16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A229B9D1C8C75EF003A2F16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A229BA41C8C75EF003A2F16;
+			remoteInfo = JTaiCustomView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A229BA51C8C75EF003A2F16 /* JTaiCustomView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JTaiCustomView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A229BA91C8C75EF003A2F16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A229BAB1C8C75EF003A2F16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6A229BAC1C8C75EF003A2F16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6A229BAE1C8C75EF003A2F16 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6A229BAF1C8C75EF003A2F16 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6A229BB21C8C75EF003A2F16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A229BB41C8C75EF003A2F16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A229BB71C8C75EF003A2F16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A229BB91C8C75EF003A2F16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A229BBE1C8C75EF003A2F16 /* JTaiCustomViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JTaiCustomViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A229BC21C8C75EF003A2F16 /* JTaiCustomViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTaiCustomViewTests.m; sourceTree = "<group>"; };
+		6A229BC41C8C75EF003A2F16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A229BC91C8C75EF003A2F16 /* JTaiCustomViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JTaiCustomViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A229BCD1C8C75EF003A2F16 /* JTaiCustomViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTaiCustomViewUITests.m; sourceTree = "<group>"; };
+		6A229BCF1C8C75EF003A2F16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A229BA21C8C75EF003A2F16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A229BBB1C8C75EF003A2F16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A229BC61C8C75EF003A2F16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A229B9C1C8C75EF003A2F16 = {
+			isa = PBXGroup;
+			children = (
+				6A229BA71C8C75EF003A2F16 /* JTaiCustomView */,
+				6A229BC11C8C75EF003A2F16 /* JTaiCustomViewTests */,
+				6A229BCC1C8C75EF003A2F16 /* JTaiCustomViewUITests */,
+				6A229BA61C8C75EF003A2F16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A229BA61C8C75EF003A2F16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A229BA51C8C75EF003A2F16 /* JTaiCustomView.app */,
+				6A229BBE1C8C75EF003A2F16 /* JTaiCustomViewTests.xctest */,
+				6A229BC91C8C75EF003A2F16 /* JTaiCustomViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A229BA71C8C75EF003A2F16 /* JTaiCustomView */ = {
+			isa = PBXGroup;
+			children = (
+				6A229BAB1C8C75EF003A2F16 /* AppDelegate.h */,
+				6A229BAC1C8C75EF003A2F16 /* AppDelegate.m */,
+				6A229BAE1C8C75EF003A2F16 /* ViewController.h */,
+				6A229BAF1C8C75EF003A2F16 /* ViewController.m */,
+				6A229BB11C8C75EF003A2F16 /* Main.storyboard */,
+				6A229BB41C8C75EF003A2F16 /* Assets.xcassets */,
+				6A229BB61C8C75EF003A2F16 /* LaunchScreen.storyboard */,
+				6A229BB91C8C75EF003A2F16 /* Info.plist */,
+				6A229BA81C8C75EF003A2F16 /* Supporting Files */,
+			);
+			path = JTaiCustomView;
+			sourceTree = "<group>";
+		};
+		6A229BA81C8C75EF003A2F16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A229BA91C8C75EF003A2F16 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A229BC11C8C75EF003A2F16 /* JTaiCustomViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A229BC21C8C75EF003A2F16 /* JTaiCustomViewTests.m */,
+				6A229BC41C8C75EF003A2F16 /* Info.plist */,
+			);
+			path = JTaiCustomViewTests;
+			sourceTree = "<group>";
+		};
+		6A229BCC1C8C75EF003A2F16 /* JTaiCustomViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A229BCD1C8C75EF003A2F16 /* JTaiCustomViewUITests.m */,
+				6A229BCF1C8C75EF003A2F16 /* Info.plist */,
+			);
+			path = JTaiCustomViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A229BA41C8C75EF003A2F16 /* JTaiCustomView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A229BD21C8C75EF003A2F16 /* Build configuration list for PBXNativeTarget "JTaiCustomView" */;
+			buildPhases = (
+				6A229BA11C8C75EF003A2F16 /* Sources */,
+				6A229BA21C8C75EF003A2F16 /* Frameworks */,
+				6A229BA31C8C75EF003A2F16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JTaiCustomView;
+			productName = JTaiCustomView;
+			productReference = 6A229BA51C8C75EF003A2F16 /* JTaiCustomView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A229BBD1C8C75EF003A2F16 /* JTaiCustomViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A229BD51C8C75EF003A2F16 /* Build configuration list for PBXNativeTarget "JTaiCustomViewTests" */;
+			buildPhases = (
+				6A229BBA1C8C75EF003A2F16 /* Sources */,
+				6A229BBB1C8C75EF003A2F16 /* Frameworks */,
+				6A229BBC1C8C75EF003A2F16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A229BC01C8C75EF003A2F16 /* PBXTargetDependency */,
+			);
+			name = JTaiCustomViewTests;
+			productName = JTaiCustomViewTests;
+			productReference = 6A229BBE1C8C75EF003A2F16 /* JTaiCustomViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A229BC81C8C75EF003A2F16 /* JTaiCustomViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A229BD81C8C75EF003A2F16 /* Build configuration list for PBXNativeTarget "JTaiCustomViewUITests" */;
+			buildPhases = (
+				6A229BC51C8C75EF003A2F16 /* Sources */,
+				6A229BC61C8C75EF003A2F16 /* Frameworks */,
+				6A229BC71C8C75EF003A2F16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A229BCB1C8C75EF003A2F16 /* PBXTargetDependency */,
+			);
+			name = JTaiCustomViewUITests;
+			productName = JTaiCustomViewUITests;
+			productReference = 6A229BC91C8C75EF003A2F16 /* JTaiCustomViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A229B9D1C8C75EF003A2F16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = com.Hjt_830.163;
+				TargetAttributes = {
+					6A229BA41C8C75EF003A2F16 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					6A229BBD1C8C75EF003A2F16 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 6A229BA41C8C75EF003A2F16;
+					};
+					6A229BC81C8C75EF003A2F16 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 6A229BA41C8C75EF003A2F16;
+					};
+				};
+			};
+			buildConfigurationList = 6A229BA01C8C75EF003A2F16 /* Build configuration list for PBXProject "JTaiCustomView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A229B9C1C8C75EF003A2F16;
+			productRefGroup = 6A229BA61C8C75EF003A2F16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A229BA41C8C75EF003A2F16 /* JTaiCustomView */,
+				6A229BBD1C8C75EF003A2F16 /* JTaiCustomViewTests */,
+				6A229BC81C8C75EF003A2F16 /* JTaiCustomViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A229BA31C8C75EF003A2F16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A229BB81C8C75EF003A2F16 /* LaunchScreen.storyboard in Resources */,
+				6A229BB51C8C75EF003A2F16 /* Assets.xcassets in Resources */,
+				6A229BB31C8C75EF003A2F16 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A229BBC1C8C75EF003A2F16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A229BC71C8C75EF003A2F16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A229BA11C8C75EF003A2F16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A229BB01C8C75EF003A2F16 /* ViewController.m in Sources */,
+				6A229BAD1C8C75EF003A2F16 /* AppDelegate.m in Sources */,
+				6A229BAA1C8C75EF003A2F16 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A229BBA1C8C75EF003A2F16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A229BC31C8C75EF003A2F16 /* JTaiCustomViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A229BC51C8C75EF003A2F16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A229BCE1C8C75EF003A2F16 /* JTaiCustomViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A229BC01C8C75EF003A2F16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A229BA41C8C75EF003A2F16 /* JTaiCustomView */;
+			targetProxy = 6A229BBF1C8C75EF003A2F16 /* PBXContainerItemProxy */;
+		};
+		6A229BCB1C8C75EF003A2F16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A229BA41C8C75EF003A2F16 /* JTaiCustomView */;
+			targetProxy = 6A229BCA1C8C75EF003A2F16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A229BB11C8C75EF003A2F16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A229BB21C8C75EF003A2F16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A229BB61C8C75EF003A2F16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A229BB71C8C75EF003A2F16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A229BD01C8C75EF003A2F16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A229BD11C8C75EF003A2F16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A229BD31C8C75EF003A2F16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JTaiCustomView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hjt-830.163.JTaiCustomView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6A229BD41C8C75EF003A2F16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JTaiCustomView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hjt-830.163.JTaiCustomView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6A229BD61C8C75EF003A2F16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JTaiCustomViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hjt-830.163.JTaiCustomViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JTaiCustomView.app/JTaiCustomView";
+			};
+			name = Debug;
+		};
+		6A229BD71C8C75EF003A2F16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JTaiCustomViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hjt-830.163.JTaiCustomViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JTaiCustomView.app/JTaiCustomView";
+			};
+			name = Release;
+		};
+		6A229BD91C8C75EF003A2F16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JTaiCustomViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hjt-830.163.JTaiCustomViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JTaiCustomView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6A229BDA1C8C75EF003A2F16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JTaiCustomViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hjt-830.163.JTaiCustomViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JTaiCustomView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A229BA01C8C75EF003A2F16 /* Build configuration list for PBXProject "JTaiCustomView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A229BD01C8C75EF003A2F16 /* Debug */,
+				6A229BD11C8C75EF003A2F16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A229BD21C8C75EF003A2F16 /* Build configuration list for PBXNativeTarget "JTaiCustomView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A229BD31C8C75EF003A2F16 /* Debug */,
+				6A229BD41C8C75EF003A2F16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6A229BD51C8C75EF003A2F16 /* Build configuration list for PBXNativeTarget "JTaiCustomViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A229BD61C8C75EF003A2F16 /* Debug */,
+				6A229BD71C8C75EF003A2F16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6A229BD81C8C75EF003A2F16 /* Build configuration list for PBXNativeTarget "JTaiCustomViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A229BD91C8C75EF003A2F16 /* Debug */,
+				6A229BDA1C8C75EF003A2F16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A229B9D1C8C75EF003A2F16 /* Project object */;
+}
