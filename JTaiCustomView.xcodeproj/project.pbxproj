@@ -15,6 +15,9 @@
 		6A229BB81C8C75EF003A2F16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A229BB61C8C75EF003A2F16 /* LaunchScreen.storyboard */; };
 		6A229BC31C8C75EF003A2F16 /* JTaiCustomViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A229BC21C8C75EF003A2F16 /* JTaiCustomViewTests.m */; };
 		6A229BCE1C8C75EF003A2F16 /* JTaiCustomViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A229BCD1C8C75EF003A2F16 /* JTaiCustomViewUITests.m */; };
+		6A229BDD1C8C7614003A2F16 /* JTaiCombineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A229BDC1C8C7614003A2F16 /* JTaiCombineView.m */; };
+		6A2816A91C9455F200B14024 /* JTaiPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2816A81C9455F200B14024 /* JTaiPopView.m */; };
+		6A2D9FB21C8F2440002AEF00 /* JTaiGetTelCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2D9FB11C8F2440002AEF00 /* JTaiGetTelCodeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		6A229BC91C8C75EF003A2F16 /* JTaiCustomViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JTaiCustomViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A229BCD1C8C75EF003A2F16 /* JTaiCustomViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTaiCustomViewUITests.m; sourceTree = "<group>"; };
 		6A229BCF1C8C75EF003A2F16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A229BDB1C8C7614003A2F16 /* JTaiCombineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTaiCombineView.h; sourceTree = "<group>"; };
+		6A229BDC1C8C7614003A2F16 /* JTaiCombineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTaiCombineView.m; sourceTree = "<group>"; };
+		6A2816A71C9455F200B14024 /* JTaiPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTaiPopView.h; sourceTree = "<group>"; };
+		6A2816A81C9455F200B14024 /* JTaiPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTaiPopView.m; sourceTree = "<group>"; };
+		6A2D9FB01C8F2440002AEF00 /* JTaiGetTelCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTaiGetTelCodeView.h; sourceTree = "<group>"; };
+		6A2D9FB11C8F2440002AEF00 /* JTaiGetTelCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTaiGetTelCodeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				6A229BAC1C8C75EF003A2F16 /* AppDelegate.m */,
 				6A229BAE1C8C75EF003A2F16 /* ViewController.h */,
 				6A229BAF1C8C75EF003A2F16 /* ViewController.m */,
+				6A229BDB1C8C7614003A2F16 /* JTaiCombineView.h */,
+				6A229BDC1C8C7614003A2F16 /* JTaiCombineView.m */,
+				6A2D9FB01C8F2440002AEF00 /* JTaiGetTelCodeView.h */,
+				6A2D9FB11C8F2440002AEF00 /* JTaiGetTelCodeView.m */,
+				6A2816A71C9455F200B14024 /* JTaiPopView.h */,
+				6A2816A81C9455F200B14024 /* JTaiPopView.m */,
 				6A229BB11C8C75EF003A2F16 /* Main.storyboard */,
 				6A229BB41C8C75EF003A2F16 /* Assets.xcassets */,
 				6A229BB61C8C75EF003A2F16 /* LaunchScreen.storyboard */,
@@ -270,9 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A2816A91C9455F200B14024 /* JTaiPopView.m in Sources */,
+				6A229BDD1C8C7614003A2F16 /* JTaiCombineView.m in Sources */,
 				6A229BB01C8C75EF003A2F16 /* ViewController.m in Sources */,
 				6A229BAD1C8C75EF003A2F16 /* AppDelegate.m in Sources */,
 				6A229BAA1C8C75EF003A2F16 /* main.m in Sources */,
+				6A2D9FB21C8F2440002AEF00 /* JTaiGetTelCodeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +516,7 @@
 				6A229BD41C8C75EF003A2F16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A229BD51C8C75EF003A2F16 /* Build configuration list for PBXNativeTarget "JTaiCustomViewTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +525,7 @@
 				6A229BD71C8C75EF003A2F16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A229BD81C8C75EF003A2F16 /* Build configuration list for PBXNativeTarget "JTaiCustomViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +534,7 @@
 				6A229BDA1C8C75EF003A2F16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
